@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.btn-container{
+    margin: 0;
+    margin-top: 20px;
+}
+.Decrement,.Increment{
+    background-color: white;
+    color:black;
+    border-style: solid;
+    border-radius: 2px;
+    font-size: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.Clear{
+    border-radius: 1px;
+    border-color: white;
+    border-radius: 1px;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.error-msg{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    display: none;
+
+    
+
+}
+.para{
+    display: inline-block;
+}
